@@ -1,10 +1,8 @@
 package lesson8;
 
-
 import java.util.Random;
 
 public class Logic {
-
     static int SIZE = 3;
     static int WIN_TO_LINE = 3;
 

@@ -14,7 +14,6 @@ public class GameWindow extends JFrame {
     private SettingWindow settingWindow;
     private BattleField battleField;
 
-
     public GameWindow() {
         setBounds(WINDOW_POS_X, WINDOW_POS_Y, WINDOW_WIDTH_, WINDOW_HEIGHT);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -40,7 +39,6 @@ public class GameWindow extends JFrame {
                 settingWindow.setVisible(true);
             }
         });
-
 
         setVisible(true);
     }

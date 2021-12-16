@@ -33,7 +33,6 @@ public class BattleField extends JPanel {
             }
         });
     }
-
     void startNewGame(int size, int winningLength) {
         this.size = size;
         this.winningLength = winningLength;
@@ -92,7 +91,6 @@ public class BattleField extends JPanel {
         g.drawLine(cellX * cellWidth, cellY * cellHeight, cellX * cellWidth + cellWidth, cellY * cellHeight + cellHeight);
         g.drawLine(cellX * cellWidth + cellWidth, cellY * cellHeight,
                 cellX * cellWidth, cellY * cellHeight + cellHeight);
-
     }
 
     void draw0(Graphics g, int cellX, int cellY) {
